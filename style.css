@@ -1,0 +1,170 @@
+.align{
+    margin: 0% 5%;
+    margin-bottom: 5%;
+}
+/* head-section */
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.head-section{
+    padding:0% 5%;
+    width: 100%;
+    
+}
+
+.log-text{
+    font-family: shrikand;
+    font-weight:bolder;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 30px;
+}
+.head-right{
+    float: right;
+    margin: 1% 2%;
+    font-size:large;
+    color: rgb(177, 177, 177);
+}
+.right-link{
+    float: right;
+    display: block-inline;
+}
+@media(max-width:991px){
+    .right-link{
+        float: left;
+        margin-left: 5%;
+    }
+    .head-right-shop{
+        margin-top: 60px;
+    }
+    .navbar-toggler{
+        float: right;
+    }
+}
+
+
+/* ads-section */
+
+.title-img{
+    width: 100%;
+    margin-bottom: -15%;
+}
+.brand-shoes{
+    font-family: anton;
+    letter-spacing: 8px;
+    color: #474D50;
+    position: relative;
+    top: -500px;
+    margin-left:5%;
+    font-size: 70px;    
+}
+.ad-text{
+    font-family: berkshire swash;
+    color: #fff;
+    position: relative;
+    top: -500px;
+    margin-top:3% ;
+    margin-left:9%;
+    font-size:50px;
+}
+
+
+
+
+/* advertisment-section */
+.advertisment-img{
+    width:1210px;
+}
+
+/* card-section */
+
+.price{
+    color: rgb(255, 255, 255);
+}
+.card{
+    display: inline-block;
+    width: 17.3rem;
+    height: 25rem;
+}
+.card2-3{
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+}
+
+
+/* breakdown */
+
+
+@media(max-width:991px){
+    .brand-shoes{
+        top:-300px;
+    }
+    .ad-text{
+        top:-300px
+    }
+    .advertisment-img{
+        width:55rem;
+    }
+    .card{
+        margin-left: 1%; 
+    }
+}
+@media(max-width:412px){
+    .brand-shoes{
+        top:-150px;
+        font-size: 45px;
+    }
+    .ad-text{
+        top:-150px;
+        font-size: 35px;
+    }
+    .advertisment-img{
+        width:17.4rem;
+    }
+    .align{
+        margin-left: 15%;
+    }
+    .card{
+        margin-bottom: 15%;
+    }
+}
+
+/*footer section*/
+
+.contact-div{
+    height: 500px;
+    width:fill;
+    background-color: black;
+}
+.footer-logo{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.footer-head{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.footer-link{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.footer-head2{
+    padding-left: 400px;
+    margin-top: -130px;
+}  
+.footer-link2{
+    padding-left: 400px;
+    padding-bottom: 50px;
+    display: inline;
+}
+.copy{
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.insta{
+    padding-left: 1200px;
+    padding-top: -150px;
+}
