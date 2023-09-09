@@ -4,7 +4,7 @@
 }
 /* head-section */
 .navbar{
-    width: 100%;
+    width: fill;
     position: fixed;
     z-index: 1;
 }
